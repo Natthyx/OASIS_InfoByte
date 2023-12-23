@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lora', serif;
+}
+.header{
+    background-image: url(../Images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98vh; 
+    text-align: center;
+}
+
+.nav{
+    margin: auto;
+    display: flex;
+    justify-content: space-around; 
+    
+}
+.nav img{
+    width: 150px;
+}
+.option{
+    padding-top: 25px;
+}
+.lang-list{
+    border: none;
+    background: transparent;
+    font-size: 13px;
+    color: #15231a;
+}
+.lang-list:hover , .fa-globe:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+.intro{
+    padding-top:1.5rem;
+}
+.intro h1{
+    font-size: 70px;
+    margin-bottom: 8px;
+    color: #15231a;
+}
+.subtitle{
+    font-size: 20px;
+    color: #15231a;
+    margin-bottom: 14px;
+    font-weight: bold;
+}
+.getBtn{
+    background-color: #338461;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    font-size: 19px;
+    margin-bottom: 14px;
+    border-style: none;
+}
+.getBtn:hover{
+    background-color: white;
+    color: black;
+}
+.guarantee{
+    color: #15231a;
+    font-size: 10px;
+    font-weight: bold;
+}
+.service{
+    width: 80%;
+    margin: auto;
+    margin-top: 7rem;
+    padding: 4rem;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.service-col{
+    flex-basis: 40%;
+    width: 50%;
+    margin-left: 3rem;
+}
+.service-col img{
+    width: 90%;
+    height: 400px;
+}
+.service-col h1{
+    color: #15231a;
+    font-size: 32px;
+    margin-bottom: 35px;
+    padding-top: 5rem;
+}
+.service-col p{
+    width: 450px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.service-col .fa-brands{
+    width: 30px;
+    background-color: #dedede;
+    text-align: center;
+    align-items: center;
+    font-size:25px;
+    padding: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.service-col .fa-brands:hover{
+    cursor: pointer;
+    background-color: #afadad;
+}
+.service-col .link{
+    margin-bottom: 1.3rem;
+    color: #338461;
+    font-size: 14px;
+}
+.service-col .link:hover{
+    color: black;
+}
+.service-col .getBtn{
+    margin-top: 3rem;
+}
+.service-col .getBtn:hover{
+    border:1px solid black;
+}
+.advantage{
+    width: 80%;
+    margin: auto;
+}
+.row1{
+    display: flex;
+    text-align: center;
+}
+.adv-col{
+    flex: 1 0 calc(25% - 20px);
+    margin-left: 10px;
+}
+.adv-col img{
+    width: 280px;
+    height: 150px;
+    object-fit: contain;
+}
+.adv-col h2{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.adv-col p{
+    width: 300px;
+    margin: auto;
+    font-size: 14px;
+}
+.adv-link{
+    margin: 6rem 0;
+    text-align: center;
+    
+}
+.adv-link a{
+    color: #338461;
+    font-size: 14px;
+}
+.adv-link a:hover{
+    color: black;
+}
+.stat{
+    background-image: url(../Images/globe.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh; 
+    position: relative;
+}
+.stat h1{
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 34px;
+    margin-bottom: 3rem;
+}
+.stat-row{
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+.stat-info{
+    text-align: left;
+    margin-right: 20rem;
+}
+.stat h3{
+    font-size:54px;
+    text-align:left
+}
+
+@media (max-width:815px){
+    .adv-col{
+        flex: 1 0 calc(50% - 20px);
+    }
+}
+
+
+@media (max-width:756px) {
+    .header{
+        height: 90vh; }
+    .intro{
+        padding-top:5.5rem;
+    }
+    .intro h1{
+        font-size: 40px;
+        padding: 3px;
+    }
+    .subtitle{
+        font-size: 15px;
+    }
+    .getBtn{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .service{
+        width: 90%;
+        margin: auto;
+        margin-top: 2rem;
+        padding: 3rem 0 0 0;
+    }
+    .row{
+        flex-direction: column;
+        width: auto;
+    }
+    .service-col{
+        flex-basis: 10%;
+        width: 90%;
+        margin-left: 2rem;
+    }
+    .service-col img{
+        width: 80%;
+        height: 300px;
+    }
+    .service-col h1{
+        font-size: 26px;
+        margin-bottom: 25px;
+        padding-top: 2rem;
+    }
+    .service-col p{
+        width: 310px;
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .service-col .link{
+        margin-bottom: 1rem;
+    }
+    .service-col .getBtn{
+        margin-top: 1.5rem;
+    }
+    .advantage{
+        width: 100%;
+    }
+    .row1{
+        flex-direction: column;
+    }
+    .adv-col{
+        flex: 1 0 calc(90% - 20px);
+        margin-left: 0px;
+    }
+    .adv-col img{
+        width: 250px;
+        height: 150px;
+    }
+    .adv-col h2{
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    .adv-col p{
+        width: 150px;
+        margin: auto;
+        font-size: 14px;
+    }
+    .stat-info{
+        flex-direction: row;
+        justify-content: space-around;
+        float: left;
+    }
+    .stat-info{
+        text-align: left;
+        margin-right: 5rem;
+    }
+    
+}

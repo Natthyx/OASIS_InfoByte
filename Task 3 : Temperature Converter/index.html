@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+    <title>Temperature Converter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="temperature-converter">
+            <h1 class="title">Temperature Converter</h1>
+        <div class="body">
+            <div class="degree-type">
+                <div class="degree-field">
+                    <label for="Degree">Degrees</label>
+                    <input type="number" name="degree" id="degree">
+                </div>
+                <div class="temp-field">
+                    <label for="temp-type">Type: </label>
+                    <select name="temperatures" id="temp-type" autocomplete="on">
+                        <option value="fahrenhiet" id="fahrenhiet">Fahrenhiet</option>
+                        <option value="kelvin" id="kelvin">Kelvin</option>
+                    </select>
+                </div>
+            </div> 
+            <div class="result">
+                <span class="result-heading">Result (Celsius)</span>
+                <h2 class="celsius-value" id="celsius">0</h2>
+            </div>
+            <button id="convert-btn">Convert</button>
+        </div>
+    </div>
+    </div>
+
+
+
+    <script src="./javascript/app.js"></script>
+    <script src="https://kit.fontawesome.com/4dc0af90fd.js" crossorigin="anonymous"></script>
+</body>
+</html>
