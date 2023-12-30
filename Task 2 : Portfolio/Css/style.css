@@ -142,11 +142,70 @@ nav{
     background: #0c0915;
     z-index: 2;
 }
+.row{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-col{
+    margin-top: 100px;
+}
+.contact-col h5{
+    color: #838389;
+    font-size: 14px;
+    margin-bottom: 10px; 
+}
+.contact-col h2{
+    width: 390px;
+    color: white;
+    margin-bottom: 20px;
+}
+.contact-col p{
+    color: #838389;
+    margin-bottom: 20px;
+    
+}
+.contact-detail{
+    width: 350px;
+    margin-bottom: 30px;
+}
+.contact-col a{
+    text-decoration: none;
+    color: #c18b00;
+    border-bottom: 1px solid #c18b00;
+    cursor: pointer;
+}
+.contact-col a:hover{
+    color: white;
+    border-bottom: 1px solid #ffffff;
+}
+.experience{
+    display: flex;
+    align-items: center;
+}
+span{
+    font-size: 50px;
+    color: #c18b00;
+    letter-spacing: -1px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.experience p{
+    color: white;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 20px;
+}
+.project-container{
+    max-width: 70%;
+}
 
 
 @media (max-width:756px){
     .hero{
-        height:auto;
+        height:100vh;
     }
     nav{
         justify-content: space-between;
@@ -227,5 +286,17 @@ nav{
     }
     .intro-detail{
         margin-bottom: 30px;
+    }
+    .row{
+        flex-direction: column;
+        width: 85%;
+    }
+    .contact-col h2{
+        width: 360px;
+        color: white;
+        margin-bottom: 20px;
+    }
+    .contact-detail{
+        width: 320px;
     }
 }
