@@ -254,20 +254,85 @@ span{
 .service{
     background-color: #171420;
     width: 100%;
-    height: 80vh;
+    height: auto;
     padding-top: 250px;
 }
 .brands{
     padding-left: 30px;
     width: 70%;
     margin: auto;
-    margin-bottom: 80px;
+    margin-bottom: 200px;
 }
 .brands img{
     width: 220px;
     margin: 0 15px;
     height: 70px;
 }
+.portfolio{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    background-color: #171420;
+}
+.portfolio_row{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio_col h5{
+    color: #838389;
+    margin-bottom: 15px;
+}
+.portfolio_col h2{
+    width: 390px;
+    color: white;
+    margin-bottom: 20px;
+}
+.portfolio_col p{
+    width: 390px;
+    color: #838389;
+    margin-bottom: 70px;
+}
+.portfolio_col a{
+    text-decoration: none;
+    color: #c18b00;
+    border-bottom: 1px solid #c18b00;
+    cursor: pointer;
+}
+.portfolio_col a:hover{
+    color: white;
+    border-bottom: 1px solid #ffffff;
+}
+
+.img-container{
+    width: 400px;
+    height: 800px;
+    cursor: pointer;
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.imgs-container{
+    width: 400px;
+    height: 700px;
+    margin: auto;
+    cursor: pointer;
+}
+.imgs-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+.add{
+    width: 100%;
+    height: 80vh;
+    background-color:#171420;
+}
+
 
 
 @media (max-width:756px){
